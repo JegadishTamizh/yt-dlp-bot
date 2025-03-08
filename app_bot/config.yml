@@ -1,13 +1,13 @@
 telegram:
-  api_id: 00000000000
-  api_hash: "REPLACE-WITH-TELEGRAM-API-HASH"
-  token: "REPLACE-WITH-TELEGRAM-TOKEN"
+  api_id: 3264079
+  api_hash: "41d88a8a4319ad19f451a8ca47d2e37f"
+  token: "7837621330:AAE9qa0yMp4WnmM4IVTM_qnmOoDQbE55sQ8"
   lang_code: !!str "en"
   max_upload_tasks: 5
   url_validation_regexes:
     - "^http(s)?:\\/\\/.+$"
   allowed_users:  # Multiple users/groups are allowed.
-    - id: 11111111111  # User or group ID.
+    - id: -1001236256021  # User or group ID.
       is_admin: !!bool True
       send_startup_message: !!bool True
       download_media_type: "VIDEO"
@@ -29,8 +29,8 @@ telegram:
     upload_video_file: !!bool False
     upload_video_max_file_size: 2147483648
     upload_to_chat_ids:  # User, group or channel IDs.
-      - 22222222222
-      - -33333333333
+      - -1001236256021
+      - 
     silent: !!bool False
     video_caption:
       include_title: !!bool True
